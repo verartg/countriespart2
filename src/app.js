@@ -7,7 +7,7 @@ formElement.addEventListener('submit', fetchCountries);
 //VRAAG: waarom verdwijnt de data zo snel? :(
 
 //variabele aangemaakt voor het laatste gedeelte van de uri.
-const INPUT = document.getElementById('inputfield')
+const input = document.getElementById('inputfield')
 
 //in deze functie wordt de endpoint gebruikt en de data van het ingevoerde land gebruikt. Van die data wordt de name, flag, subregion,
 // population, capital en currencies via innerhtml op de pagina geplaatst. bij die laatste wordt er eerst een if functie uitgevoerd om te
